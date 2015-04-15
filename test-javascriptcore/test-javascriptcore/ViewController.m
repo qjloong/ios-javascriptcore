@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import <JavaScriptCore/JavaScriptCore.h>
 
 @interface ViewController ()
 
@@ -17,11 +18,23 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+- (void)test1
+{
+    JSContext *context = [[JSContext alloc] init];
+    JSValue *jsVal = [context evaluateScript:@"21+7"];
+    int iVal = [jsVal toInt32];
+    NSLog(@"JSValue: %@, int: %d", jsVal, iVal);
+}
+
+
 
 @end

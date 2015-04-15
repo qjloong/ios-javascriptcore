@@ -14,6 +14,7 @@
 		964B7BB51ADE8ED6000B8253 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 964B7BB41ADE8ED6000B8253 /* Images.xcassets */; };
 		964B7BB81ADE8ED6000B8253 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 964B7BB61ADE8ED6000B8253 /* LaunchScreen.xib */; };
 		964B7BC41ADE8ED6000B8253 /* test_javascriptcoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 964B7BC31ADE8ED6000B8253 /* test_javascriptcoreTests.m */; };
+		964B7BCE1ADE8F25000B8253 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 964B7BCD1ADE8F25000B8253 /* JavaScriptCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		964B7BBD1ADE8ED6000B8253 /* test-javascriptcoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "test-javascriptcoreTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		964B7BC21ADE8ED6000B8253 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		964B7BC31ADE8ED6000B8253 /* test_javascriptcoreTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = test_javascriptcoreTests.m; sourceTree = "<group>"; };
+		964B7BCD1ADE8F25000B8253 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				964B7BCE1ADE8F25000B8253 /* JavaScriptCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +66,7 @@
 		964B7B9B1ADE8ED6000B8253 = {
 			isa = PBXGroup;
 			children = (
+				964B7BCD1ADE8F25000B8253 /* JavaScriptCore.framework */,
 				964B7BA61ADE8ED6000B8253 /* test-javascriptcore */,
 				964B7BC01ADE8ED6000B8253 /* test-javascriptcoreTests */,
 				964B7BA51ADE8ED6000B8253 /* Products */,

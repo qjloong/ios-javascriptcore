@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>A5E195D9-C2EA-4AC7-A9ED-082B9F47D8FC</string>
+	<key>IDESourceControlProjectName</key>
+	<string>test-javascriptcore</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>24C8109A80CE7791591A5CE0AF143C787DA59CBC</key>
+		<string>github.com:qjloong/ios-javascriptcore.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>test-javascriptcore/test-javascriptcore.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>24C8109A80CE7791591A5CE0AF143C787DA59CBC</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:qjloong/ios-javascriptcore.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>24C8109A80CE7791591A5CE0AF143C787DA59CBC</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>24C8109A80CE7791591A5CE0AF143C787DA59CBC</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ios-javascriptcore</string>
+		</dict>
+	</array>
+</dict>
+</plist>
