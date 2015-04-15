@@ -7,7 +7,8 @@
 //
 
 #import "ViewController.h"
-#import <JavaScriptCore/JavaScriptCore.h>
+#import "Person.h"
+
 
 @interface ViewController ()
 
@@ -19,7 +20,9 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    [self test1];
+    //[self test1];
+    
+    [self test2];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -36,5 +39,38 @@
 }
 
 
+
+- (void)test2
+{
+    JSContext *context = [[JSContext alloc] init];
+    context.exceptionHandler = ^(JSContext *con, JSValue *exception) {
+        NSLog(@"%@", exception);
+        con.exception = exception;
+    };
+    
+    context[@"log"] = ^() {
+        NSArray *args = [JSContext currentArguments];
+        for (id obj in args) {
+            NSLog(@"%@",obj);
+        }
+    };
+    
+    Person *person = [[Person alloc] init];
+    context[@"p"] = person;
+    person.lastName = @"qyt";
+    person.urls = @{@"site": @"http://opensource.apple.com/source/JavaScriptCore"};
+    
+    [context evaluateScript:@"log(p.fullName());"];
+    
+    [context evaluateScript:@"log('site:', p.urls.site, 'blog:', p.urls.blog);"];
+
+    [context evaluateScript:@"log(p.fullName());"];
+    
+    [context evaluateScript:@"p.urls = {blog:'https://github.com/blog'}"];
+    
+    [context evaluateScript:@"log('site:', p.urls.site, 'blog:', p.urls.blog);"];
+    
+    NSLog(@"%@",person.urls);
+}
 
 @end

@@ -15,6 +15,7 @@
 		964B7BB81ADE8ED6000B8253 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 964B7BB61ADE8ED6000B8253 /* LaunchScreen.xib */; };
 		964B7BC41ADE8ED6000B8253 /* test_javascriptcoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 964B7BC31ADE8ED6000B8253 /* test_javascriptcoreTests.m */; };
 		964B7BCE1ADE8F25000B8253 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 964B7BCD1ADE8F25000B8253 /* JavaScriptCore.framework */; };
+		964B7BD11ADE998C000B8253 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 964B7BD01ADE998C000B8253 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,8 @@
 		964B7BC21ADE8ED6000B8253 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		964B7BC31ADE8ED6000B8253 /* test_javascriptcoreTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = test_javascriptcoreTests.m; sourceTree = "<group>"; };
 		964B7BCD1ADE8F25000B8253 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		964B7BCF1ADE998C000B8253 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		964B7BD01ADE998C000B8253 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +96,8 @@
 				964B7BB41ADE8ED6000B8253 /* Images.xcassets */,
 				964B7BB61ADE8ED6000B8253 /* LaunchScreen.xib */,
 				964B7BA71ADE8ED6000B8253 /* Supporting Files */,
+				964B7BCF1ADE998C000B8253 /* Person.h */,
+				964B7BD01ADE998C000B8253 /* Person.m */,
 			);
 			path = "test-javascriptcore";
 			sourceTree = "<group>";
@@ -225,6 +230,7 @@
 			files = (
 				964B7BB01ADE8ED6000B8253 /* ViewController.m in Sources */,
 				964B7BAD1ADE8ED6000B8253 /* AppDelegate.m in Sources */,
+				964B7BD11ADE998C000B8253 /* Person.m in Sources */,
 				964B7BAA1ADE8ED6000B8253 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
